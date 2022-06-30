@@ -2,7 +2,7 @@ import vk_api
 import time
 from datetime import datetime
 
-session = vk_api.VkApi(token='vk1.a.4Z7mTLe4fM8mywUao0UjrpR3nAbz7oUSDxaEBc06pRZwXweB3xvkcGJnjNrcybrAD6lL5UwwTJ9Ig7dt8vg4Z-R584Oe5fN-mE2kIWgjbuMWvyj4j_ST0SsQk9qLt3y4mVv8qdsDSOnq9J4mQaQxDqoGUnDAi61sICTTphtnH5InRaco1KZNYfTMH7FLgDNW')
+session = vk_api.VkApi(token='YOUR TOKEN')
 vk = session.get_api()
  
 def get_last_msg():
