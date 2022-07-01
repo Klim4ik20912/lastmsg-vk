@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 session = vk_api.VkApi(
-token='YOUR-TOKEN')
+token='YOUR_TOKEN')
 vk = session.get_api()
 
 
