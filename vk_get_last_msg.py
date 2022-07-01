@@ -20,6 +20,8 @@ def get_last_msg():
         final_time = count_stat(read)
 
         print(f'текст сообщения: {text}. {final_time}')
+
+        
 def convert_time(date):
     read_time = datetime.fromtimestamp(date)
     return read_time
